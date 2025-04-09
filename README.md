@@ -1,20 +1,40 @@
 # 🎲 Random Image API
 
-A simple and lightweight Node.js API built with Express that serves random images using [Picsum Photos](https://picsum.photos/). Supports custom image dimensions via query parameters.
+This is a simple Node.js API built with Express that returns a random image using the Picsum Photos service.
 
-## 📦 Features
+## 🚀 How to Run
 
-- Returns a random image on request
-- Supports custom width and height using query parameters
-- Lightweight and beginner-friendly
-- Easily testable via browser or Postman
+1. Clone the repository or download the project.
+2. Run `npm install` to install dependencies.
+3. Start the server using `node index.js`.
+4. Visit `http://localhost:3000` in your browser or use Postman.
 
----
+## 🛠 Tech Stack
 
-## 🚀 Getting Started
+- Node.js
+- Express.js
+- Axios (for HTTP requests)
 
-### 1. Clone the Repository
+## 🔄 Endpoint
 
-```bash
-git clone https://github.com/your-username/random-image-api.git
-cd random-image-api
+| Method | Route                  | Description             |
+|--------|------------------------|-------------------------|
+| GET    | `/`    | Returns a random image  |
+
+## ❓Challenges Faced
+
+- Choosing a reliable random image source.
+- Understanding how to redirect image URLs properly.
+
+## 📸 Example Response
+
+Redirects to a URL like:
+https://picsum.photos/400/400
+
+
+## ✅ Future Enhancements
+
+- Add image category filters
+- Allow width and height as query parameters
+
+
